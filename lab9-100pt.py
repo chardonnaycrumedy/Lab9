@@ -13,3 +13,25 @@
 # - A temperature of over 105F
 # - A temperature of over 102F and they have been sick in the last 24 hours
 # - A temperature over 100, OR they've been sick in the last 24 hours, AND they've recently travelled to West Africa.
+
+keepLoopGoing == True:
+
+print 'What is your temperature?'
+userInput = int(raw_input())
+print 'Have you been sick in the last 24 hours?'
+userInput = raw_input()
+print 'Have you recently traveled to West Africa?'
+userInput = raw_input()
+
+    if userInput > 105:
+        print 'The patient needs to be checked in.'
+    elif userInput >102 + userInput == yes: 
+        print 'The patient needs to be checked in.'
+    elif userInput >100 + userInput == yes + userInput == yes:
+        print 'The patient needs to be checked in.'
+        
+print 'Would you like to stop?'
+keepLoopGoing == False
+
+
+
